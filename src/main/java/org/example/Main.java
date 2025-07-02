@@ -16,5 +16,19 @@ public class Main {
 
         // Geschwindigkeit des zweiten Autos wird angezeigt
         System.out.println("Aktuelle Geschwindigkeit von " + auto2.getSpeed() + " km/h.");
+
+        // PERSON
+
+        // Person 1 erstellen und vorstellen
+        Person person1 = new Person("Anna", 25, "weiblich");
+        person1.vorstellen();
+
+        // Person 2 erstellen und vorstellen
+        Person person2 = new Person("Max", 30, "männlich");
+        person2.vorstellen();
+
+        // Person 3 erstellen und vorstellen
+        Person person3 = new Person("Lena", 22, "weiblich");
+        person3.vorstellen();
     }
 }
